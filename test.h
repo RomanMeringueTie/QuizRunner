@@ -3,6 +3,13 @@
 #include TEST_H
 #endif
 
+struct test
+{
+    int testNumber;
+    char[100] testName;
+    question question;
+}
+
 struct question
 {
     int questionNumber;
