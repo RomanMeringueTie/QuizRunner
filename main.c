@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <test.h>
+#include "test.h"
 
-int testRun();
+int testRun()
 {
     return 0;
 }

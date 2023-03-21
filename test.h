@@ -1,27 +1,23 @@
-#ifndef TEST_H
-#define TEST_H <test.h>
-#include TEST_H
-#endif
-
-struct test
+struct answerOptions
 {
-    int testNumber;
-    char[100] testName;
-    question question;
-}
+    char optionLetter;
+    char optionText[100];
+    int isAnswerRight;
+};
+typedef struct answerOptions answerOptions;
 
 struct question
 {
     int questionNumber;
-    char[100] questionText;
+    char questionText[100];
     answerOptions answerOptions;
 };
 typedef struct question question;
 
-struct answerOptions
+struct test
 {
-    char optionLetter;
-    char[100] optionText;
-    int isAnswerRight;
+    int testNumber;
+    char testName[100];
+    question question;
 };
-typedef struct answerOptions answerOptions;
+typedef struct test test;
