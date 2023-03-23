@@ -15,6 +15,7 @@ int createTest()
 
 int main()
 {
+    printf("_______________________________________________________________________\n|                             QUIZRUNNER                              |\n|        Create by Artem Ocnev,Roman Kochatkov,Gorodilov Pavel        |\n|   Siberian State University of Telecommunications and Informatics   |\n|                             Group:IV-222                            |\n-----------------------------------------------------------------------\n\n\n");
     printf("Доступные команды:\n");
     printf("Создание теста: 1\n");
     printf("Прохождение теста: 2\n");
