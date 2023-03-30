@@ -23,4 +23,4 @@ struct test
 };
 typedef struct test test;
 
-addTest(test *data, test test);
+int addTest(test *data, test test);
