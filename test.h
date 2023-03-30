@@ -1,3 +1,5 @@
+#pragma once
+
 struct answerOptions
 {
     char optionLetter;
