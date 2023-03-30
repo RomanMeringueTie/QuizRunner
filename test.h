@@ -18,8 +18,9 @@ typedef struct question question;
 
 struct test
 {
-    int testNumber;
     char testName[100];
     question question;
 };
 typedef struct test test;
+
+addTest(test *data, test test);
