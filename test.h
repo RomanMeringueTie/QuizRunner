@@ -23,4 +23,6 @@ struct test
 };
 typedef struct test test;
 
-int addTest(test *data, test test);
+int testRun();
+
+int createTest();
